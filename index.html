@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-3</title>
+    <!-- Daisy Ui cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "parrot-color": "#ABEF5F",
+              "white-color": "#E9E9E9",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/42be8a128b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Manrope Goggle Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .manrope-font {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="manrope-font">
+    <!-- Header Section -->
+    <header class="md:container mx-auto">
+      <!-- Nav bar start Here -->
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <i
+              class="fa-solid fa-arrow-right bg-parrot-color p-2 -rotate-45 w-8 h-8 rounded-full text-black"
+            ></i>
+            <a class="btn btn-ghost text-3xl font-extrabold text-[#212121]"
+              >Rinterio</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-[#737373] font-normal">
+              <li class="text-[#494949] font-extrabold"><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- right sight nav bar -->
+          <div class="navbar-end">
+            <div class="hidden lg:block">
+              <i
+                class="fa-solid fa-magnifying-glass w-8 h-8 p-2 rounded-full bg-white-color text-[#737373] mr-2"
+              ></i>
+              <i
+                class="fa-solid fa-cart-shopping w-8 h-8 p-2 rounded-full bg-white-color text-[#737373] mr-2"
+              ></i>
+              <button class="btn bg-parrot-color rounded-full">
+                <a class="font-extrabold text-xl">Book Consult </a>
+                <i
+                  class="fa-solid fa-arrow-right bg-black p-2 -rotate-45 w-8 h-8 rounded-full text-white"
+                ></i>
+              </button>
+            </div>
+            <div class="dropdown w-12">
+              <div tabindex="0" role="button" class="btn btn-circle lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  class="inline-block h-5 w-5 stroke-current"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              </div>
+              <!-- <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- header body -->
+      <div class="card bg-base-100">
+        <figure class="px-10 pt-8">
+          <img src="./assets/banner.png" alt="banner" />
+        </figure>
+        <div class="card-body items-center text-center pt-6 pb-0">
+          <h2
+            class="card-title font-extrabold text-3xl lg:text-6xl text-[#212121] mb-4 lg:mb-5 lg:w-11/12"
+          >
+            A barn house of this design has a striking appearance
+          </h2>
+          <p
+            class="font-medium text-[#494949] mb-7 text-sm lg:text-lg lg:w-10/12"
+          >
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+          <div class="card-actions">
+            <button
+              class="btn bg-[#ABEF5F80] rounded-full border-solid border border-[#ABEF5F]"
+            >
+              <a class="font-bold text-xl text-[#212121]">View Details</a>
+              <i
+                class="fa-solid fa-arrow-right bg-parrot-color p-2 -rotate-45 w-8 h-8 rounded-full text-black"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main></main>
+
+    <!-- Footer Section -->
+    <footer></footer>
+  </body>
+</html>
