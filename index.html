@@ -18,10 +18,14 @@
       tailwind.config = {
         theme: {
           extend: {
-            colors: {
-              clifford: "#da373d",
-              "parrot-color": "#ABEF5F",
-              "white-color": "#E9E9E9",
+            width: {
+              275: "17rem",
+
+              colors: {
+                clifford: "#da373d",
+                "parrot-color": "#ABEF5F",
+                "white-color": "#E9E9E9",
+              },
             },
           },
         },
@@ -166,16 +170,14 @@
             />
           </div>
           <div class="space-y-6 mb-6">
-            <button>
-              <h2
-                class="hover:bg-[#d4d4d4] bg-[#FFFFFF] rounded-full w-32 h-9 mx-auto lg:mx-0"
-              >
-                <i
-                  class="fa-solid fa-arrow-right p-2 w-8 h-8 rounded-full text-black"
-                ></i>
-                <a class="font-bold text-[#494949]">About Us</a>
-              </h2>
-            </button>
+            <h2
+              class="hover:bg-[#d4d4d4] bg-[#FFFFFF] rounded-full w-32 h-9 mx-auto lg:mx-0"
+            >
+              <i
+                class="fa-solid fa-arrow-right p-2 w-8 h-8 rounded-full text-black"
+              ></i>
+              <a class="font-bold text-[#494949]">About Us</a>
+            </h2>
             <h3
               class="font-bold text-2xl lg:text-4xl text-[#212121] w-10/12 items-center text-center mx-auto lg:items-start lg:text-start lg:mx-0"
             >
@@ -198,7 +200,7 @@
                 alt=""
               />
             </div>
-            <div>
+            <div class="lg:w-80">
               <h2
                 class="font-extrabold pb-2 text-base lg:text-xl text-[#494949]"
               >
@@ -219,7 +221,7 @@
                 alt=""
               />
             </div>
-            <div>
+            <div class="lg:w-80">
               <h2
                 class="font-extrabold pb-2 text-base lg:text-xl text-[#494949]"
               >
@@ -239,6 +241,97 @@
             src="./assets/Rectangle.png"
             alt=""
           />
+        </div>
+      </section>
+
+      <!-- Our Works Process section -->
+      <section class="bg-[#F4F4F4] px-5 py-8 lg:px-28 lg:py-28">
+        <!-- Text header section -->
+        <div>
+          <!-- button -->
+          <h2
+            class="hover:bg-[#d4d4d4] bg-[#FFFFFF] rounded-full w-40 h-9 mx-auto mb-4"
+          >
+            <i
+              class="fa-solid fa-arrow-right p-2 w-8 h-8 rounded-full text-black"
+            ></i>
+            <a class="font-bold text-[#494949]">How we works</a>
+          </h2>
+          <h3
+            class="font-bold text-2xl lg:text-4xl text-[#212121] w-10/12 text-center mx-auto mb-4 lg:mb-6"
+          >
+            Our Works Process
+          </h3>
+          <p
+            class="font-medium text-[#494949] text-sm lg:text-base items-center text-center mx-auto lg:w-8/12 lg:px-5 mb-6 lg:mb-8"
+          >
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <!-- Cards section -->
+
+        <div
+          class="grid grid-cols-1 lg:grid-cols-4 gap-5 lg:flex lg:justify-between"
+        >
+          <!-- Card - 1 -->
+          <div class="card bg-[#E7C1D3] lg:w-[17rem] p-6">
+            <div class="mb-3">
+              <img src="./assets/concept.png" alt="concept" />
+            </div>
+            <div>
+              <h2 class="card-title mb-3 lg:text-xl font-extrabold">Concept</h2>
+              <p class="font-medium">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+          </div>
+          <!-- Card - 2 -->
+          <div class="card bg-[#EFDA6E] lg:w-[17rem] p-6">
+            <div class="mb-3">
+              <img src="./assets/flow-chart.png" alt="concept" />
+            </div>
+            <div>
+              <h2 class="card-title mb-3 lg:text-xl font-extrabold">
+                Design Process
+              </h2>
+              <p class="font-medium">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+          </div>
+          <!-- Card - 3 -->
+          <div class="card bg-[#A4DAC3] lg:w-[17rem] p-6">
+            <div class="mb-3">
+              <img src="./assets/vision.png" alt="concept" />
+            </div>
+            <div>
+              <h2 class="card-title mb-3 lg:text-xl font-extrabold">
+                Supervision
+              </h2>
+              <p class="font-medium">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+          </div>
+          <!-- Card - 4 -->
+          <div class="card bg-[#77AAEA] lg:w-[17rem] p-6">
+            <div class="mb-3">
+              <img src="./assets/budget-planning.png" alt="concept" />
+            </div>
+            <div>
+              <h2 class="card-title mb-3 lg:text-xl font-extrabold">
+                Budget Planning
+              </h2>
+              <p class="font-medium">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
